@@ -1,0 +1,50 @@
+body {
+	color:black;
+	font-family: monospace;
+}
+
+header {
+	border-bottom: solid 5px;
+	padding: 20px;
+}
+
+footer {
+	border-top: solid 5px;
+}
+
+#links a{
+	border: solid 1px;
+	padding: 10px;
+	background-color: white;
+	margin: 0px;
+}
+
+.slides {
+	width: 40%;
+	height: 40%;
+	display: inline;
+}
+
+img {
+	width: 40vw;
+	height: auto;
+	display: inline;
+}
+
+a:hover {
+	color: grey;
+}
+
+a:active {
+	color: red;
+}
+th,td {
+	padding: 5px;
+}
+tr:nth-child(even){
+	background-color: grey;
+}
+
+.paragraph-link {
+	border: 3px solid black;
+}
